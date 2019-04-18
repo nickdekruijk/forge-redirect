@@ -16,4 +16,6 @@
         $new_url .= getenv('REQUEST_URI');
     }
 
+    // Permanent 301 redirection
+    header("HTTP/1.1 301 Moved Permanently");
     header('Location: ' . $new_url);
