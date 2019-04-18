@@ -10,7 +10,7 @@ Finally edit the .env file for example like this:
 # Redirect to this URL, may include subdomains or subfolders
 REDIRECT_TO="https://redirecttodomain.com/"
 
-# Append the server REQUEST_URI to the REDIRECT_DOMAIN so old.com/test is redirected to new.com/test
+# Append the server REQUEST_URI to REDIRECT_TO so old.com/test is redirected to new.com/test
 # When false (default) all traffic will be redirected to new.com/
 REDIRECT_WITH_REQUEST_URI=false
 ```
