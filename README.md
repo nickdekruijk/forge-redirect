@@ -11,7 +11,7 @@ Finally edit the .env as you please or use this [.env.example](.env.example):
 REDIRECT_TO="https://redirecttodomain.com/"
 
 # Append the server REQUEST_URI to REDIRECT_TO so old.com/test is redirected to new.com/test
-# When false (default) all traffic will be redirected to new.com/
+# When false (default) all traffic will be redirected to the root of https://redirecttodomain.com/
 REDIRECT_WITH_REQUEST_URI=false
 ```
 
