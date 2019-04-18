@@ -20,6 +20,6 @@ REDIRECT_WITH_REQUEST_URI=false
 ## Why not use the build in redirect functions then?
 If you redirect the root / to something else with Forge it breaks the LetsEncrypt ACME validation since that validation URL is being redirected too.
 
-## Why not add old domain an alias in the new site?
+## Why not add old domain as an alias in the new site?
 Then I would need to include all the domains that need to be redirected in the same SSL certificate and then everybody can see all the redirect domain names inside that certificate which might be bad for many reasons.
 And because I don't want duplicate content on all the domains I need to manually redirect all domains to the main one from within the application too.
