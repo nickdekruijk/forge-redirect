@@ -3,9 +3,9 @@ I often need a way do redirect all traffic from for example site domain.eu to do
 After installing all I need to do is to add the right domainname to the .env file which is easy to edit within Laravel Forge.
 
 # Usage
-Create a site on forge and add the GitHub Repository nickdekruijk/forge-redirect
-After installation create a LetsEncrypt certificate.
-Finally edit the .env file for example like this
+Create a site on forge and add the GitHub Repository nickdekruijk/forge-redirect  
+After installation create a LetsEncrypt certificate.  
+Finally edit the .env file for example like this:
 ```php
 # Redirect to this URL, may include subdomains or subfolders
 REDIRECT_TO="https://redirecttodomain.com/"
