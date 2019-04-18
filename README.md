@@ -1,5 +1,5 @@
 # Redirect all traffic with Laravel Forge
-I often need a way do redirect all traffic from site domain.eu to domain.com. But I want aaa.com to work with a LetsEncrypt SSL certificate too so that site must be hosted somewhere. Since I use forge to host many sites it made sense to me to also create a site for domain.eu and redirect everything to the .com variant. So I created this very small PHP script and have it on github so I can easily deploy this every time I create a new site on forge just for redirecting purposes.
+I often need a way do redirect all traffic from for example site domain.eu to domain.com. But I want domain.eu to work with a LetsEncrypt SSL certificate too so that site must be hosted somewhere. Since I use forge to host many sites it made sense to me to also create a site for domain.eu and redirect everything to the .com variant. So I created this very small PHP script and have it on github so I can easily deploy this every time I create a new site on forge just for redirecting purposes.
 After installing all I need to do is to add the right domainname to the .env file which is easy to edit within Laravel Forge.
 
 # Usage
