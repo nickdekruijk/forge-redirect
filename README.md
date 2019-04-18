@@ -5,7 +5,7 @@ After installing all I need to do is to add the right domainname to the .env fil
 # Usage
 Create a site on forge and add the GitHub Repository nickdekruijk/forge-redirect  
 After installation create a LetsEncrypt certificate.  
-Finally edit the .env as you please or use this [.env.example](.env.example):
+Finally add at least REDIRECT_TO to your .env file or copy and edit this [.env.example](.env.example):
 ```php
 # Redirect to this URL, may include subdomains or subfolders
 REDIRECT_TO="https://redirecttodomain.com/"
