@@ -18,7 +18,7 @@ REDIRECT_WITH_REQUEST_URI=false
 # Frequently Asked Questions
 
 ## Why not use the build in redirect functions then?
-The way Forge handles their redirects breaks the LetsEncrypt ACME validation since that validation URL is being redirected too.
+If you redirect the root / to something else with Forge it breaks the LetsEncrypt ACME validation since that validation URL is being redirected too.
 
 ## Why not add old domain an alias in the new site?
 Then I would need to include all the domains that need to be redirected in the same SSL certificate and then everybody can see all the redirect domain names inside that certificate which might be bad for many reasons.
