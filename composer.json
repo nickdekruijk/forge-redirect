@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.0|^8.0",
-        "vlucas/phpdotenv": "^5.0"
+        "php": "^8.1",
+        "vlucas/phpdotenv": "^5.4"
     }
 }
