@@ -1,7 +1,7 @@
 <?php
     // Initialize composer autoload and Dotenv package
     require __DIR__ . '/../vendor/autoload.php';
-    $dotenv = Dotenv\Dotenv::create(__DIR__ . '/..');
+    $dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/..');
     $dotenv->load();
 
     // Get the .env variables
