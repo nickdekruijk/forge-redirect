@@ -3,7 +3,6 @@
     "description": "Redirect all traffic with Laravel Forge",
     "license": "MIT",
     "keywords": [ "larvel", "forge", "redirect", "php", "301", "302" ],
-    "homepage": "http://www.nickdekruijk.nl/packages/forge-redirect",
     "authors": [
         {
             "name": "Nick de Kruijk",
